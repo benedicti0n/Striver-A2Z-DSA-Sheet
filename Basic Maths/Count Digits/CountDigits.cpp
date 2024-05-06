@@ -10,6 +10,12 @@ int countDigits(int n){
     return count;
 }
 
+//Another approach
+// int countDigits(int n){
+//     int count = log10(n) + 1;
+//     return count;
+// }
+
 int main(){
     int n = 237987345;
     cout<<countDigits(n)<<endl;
